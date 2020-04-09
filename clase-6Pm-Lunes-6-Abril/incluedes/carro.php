@@ -1,5 +1,5 @@
 <?php
-
+//PDO Php Document Object
 class Carro{
     private $puertas;
     private $llantas;
@@ -11,6 +11,8 @@ class Carro{
     private $numero1;
     private $numero2;
 
+    //SET, nos sirven para asignar un valor a una variable de una clase.
+    //GET, nos sirve para trar/llamar el valor que se asigno a una varible a través un SET.
     public function setNumero1($numero1){
         $this->numero1 = $numero1;
     }
